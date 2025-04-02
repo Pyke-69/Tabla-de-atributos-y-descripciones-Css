@@ -1,0 +1,147 @@
+.menuNavegacion {
+    background-color: #2c3e50; /* Fondo oscuro */
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.menuNavegacion nav {
+    display: flex; /* Alineación horizontal */
+    justify-content: space-around; /* Espaciado entre elementos */
+    list-style: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+.menuNavegacion nav li {
+    margin: 0 15px; /* Margen entre los elementos */
+}
+
+.menuNavegacion nav li a {
+    text-decoration: none; /* Quita el subrayado */
+    color: #ecf0f1; /* Color de texto claro */
+    font-size: 16px; /* Tamaño del texto */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s ease; /* Efecto de transición */
+}
+
+.menuNavegacion nav li a:hover {
+    color: #d19129; /* Cambia el color al pasar el mouse */
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía moderna y legible */
+    background-color: #f7f7f7; /* Fondo neutro para evitar distracciones */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
+/* Estilo para los títulos */
+h2 {
+    color: #333; /* Texto oscuro para buen contraste */
+    text-align: center; /* Centra los títulos */
+    border-bottom: 2px solid #4CAF50; /* Línea decorativa debajo del título */
+    padding-bottom: 5px; /* Espaciado entre el texto y la línea */
+    font-size: 1.8rem; /* Tamaño del texto adecuado para jerarquía */
+}
+
+/* Estilo para los párrafos */
+p {
+    color: #555; /* Color suave para facilitar la lectura */
+    font-size: 1.1rem; /* Tamaño ligeramente mayor que el estándar */
+    line-height: 1.8; /* Espaciado entre líneas para claridad */
+    text-align: justify; /* Alinea el texto en ambos bordes */
+    margin: 0 15px; /* Espaciado lateral para mantener el contenido centrado */
+}
+
+/* Estilo para los contenedores (div) */
+div {
+    background-color: #ffffff; /* Fondo blanco para destacar el contenido */
+    border-radius: 8px; /* Bordes redondeados para un estilo moderno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    margin: 20px auto; /* Espaciado externo y centra horizontalmente */
+    padding: 20px; /* Espaciado interno alrededor del contenido */
+    width: 90%; /* Toma el 90% del ancho de la pantalla */
+    max-width: 600px; /* Ancho máximo para evitar que crezca demasiado */
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block; /* Centra automáticamente las imágenes */
+    max-width: 100px; /* Limita el tamaño para mantener proporciones elegantes */
+    margin: 10px auto 0; /* Margen superior y centra horizontalmente */
+    border-radius: 50%; /* Hace las imágenes circulares */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para resaltar las imágenes */
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente principal */
+    background-color: #f4f4f4; /* Color de fondo gris claro */
+    text-align: center; /* Centra el texto del cuerpo */
+    margin: 20px; /* Agrega un margen externo */
+}
+
+/* Estilos para los encabezados h2 */
+h2 {
+    color: #2c3e50; /* Color azul oscuro */
+}
+
+/* Estilos para la tabla */
+table {
+    width: 90%; /* La tabla ocupa el 90% del ancho de la pantalla */
+    margin: 20px auto; /* Centra la tabla horizontalmente */
+    border-collapse: collapse; /* Evita espacios dobles en los bordes */
+    background-color: white; /* Fondo blanco para la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para efecto elevado */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Evita que los bordes redondeados sean afectados por el contenido */
+}
+
+/* Estilos para las celdas de la tabla */
+th, td {
+    border: 1px solid #ddd; /* Borde delgado y gris */
+    padding: 12px; /* Espaciado interno para mejorar la apariencia */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para los encabezados de la tabla */
+th {
+    background-color: #2c3e50; /* Fondo azul oscuro */
+    color: white; /* Texto en color blanco */
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+}
+
+/* Estilos para los enlaces dentro de la tabla */
+td a {
+    color: #3498db; /* Color azul vibrante */
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+/* Cambia el estilo del enlace cuando el mouse pasa sobre él */
+td a:hover {
+    text-decoration: underline; /* Agrega subrayado al pasar el cursor */
+}
+
+/* Estilo para filas pares de la tabla (efecto de zebra) */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Color de fondo ligeramente gris */
+}
+
+/* Efecto al pasar el cursor sobre una fila */
+tr:hover {
+    background-color: #f1f1f1; /* Cambia el fondo al pasar el cursor */
+    transition: 0.3s; /* Agrega una transición suave */
+}
+
+table img {
+    max-width: 250px; /* Ajusta el tamaño máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita problemas de alineación */
+    margin: 0 auto; /* Centra la imagen dentro de la celda */
+}
